@@ -1,4 +1,47 @@
-body {
-  background: red; }
+img {
+  display: inline-block; }
+
+.container2 {
+  max-width: 1200px;
+  margin: auto;
+  margin-top: 20px; }
+
+/*
+** TITRE
+*/
+.round {
+  border-radius: 50%; }
+
+/*
+** CONTENU
+*/
+.card {
+  margin-bottom: 5%; }
+
+.as_host .as_guest {
+  width: 35%;
+  display: inline-block; }
+
+.is-128x128 {
+  display: inline-block; }
+
+.is-2 {
+  display: inline-block;
+  line-height: 128px; }
+
+.manage_guests {
+  width: 50px;
+  background-color: #ddd;
+  border-radius: 5px; }
+  .manage_guests .user_icon {
+    width: 40px;
+    margin: auto;
+    display: inline-block; }
+  .manage_guests .nb_guests {
+    color: red;
+    display: inline-block;
+    font-weight: bold;
+    margin-left: -10px;
+    margin-top: 3px; }
 
 /*# sourceMappingURL=styles.css.map */
